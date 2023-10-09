@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import IndexView from '../views/IndexView.vue'
+import FormsView from '../views/FormsView.vue'
 
 const routes = [
   {
@@ -7,7 +8,12 @@ const routes = [
     name: 'home',
     component: IndexView
   },
-  //add Janine's path
+  {
+  path: '/forms',
+  name: 'forms',
+  component: FormsView,
+  },
+    
   
   //add Kristia's path
   {
